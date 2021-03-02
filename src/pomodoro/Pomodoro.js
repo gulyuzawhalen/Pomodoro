@@ -81,10 +81,10 @@ function Pomodoro() {
     setFocusDuration((prevState) => Math.min(FOCUS_MAX, prevState + FOCUS_STEP));
   }
   function decreaseBreak() {
-    setBreakDuration((currentBreak) => Math.max(BREAK_MIN, prevState - BREAK_STEP));
+    setBreakDuration((prevState) => Math.max(BREAK_MIN, prevState - BREAK_STEP));
   }
   function increaseBreak() {
-    setBreakDuration((currentBreak) => Math.min(BREAK_MAX, prevState + BREAK_STEP));
+    setBreakDuration((prevState) => Math.min(BREAK_MAX, prevState + BREAK_STEP));
   }
   function stopSession() {
     setIsTimerRunning(false);
