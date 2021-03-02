@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 
 function ProgressBar({ percentComplete }) {
     return (
-        <>
-        <div className="progress" style={{ height: "20px" }}></div>
+        <div className="progress" style={{ height: "20px" }}>
             <div
                 className="progress-bar"
                 role="progressbar"
@@ -15,7 +14,6 @@ function ProgressBar({ percentComplete }) {
                 style={{ width: `${percentComplete}%`}} // TODO: Increase width % as elapsed time increases
             />
         </div>
-        </>
     )
 }
 ProgressBar.propTypes = {
