@@ -1,0 +1,12 @@
+This project is designed to test the ability to work with rendering and state management using React:
+
+Installing packages via NPM
+Running tests from the command line
+Writing React function components
+Using hooks like useState()
+Debugging React code through console output
+
+The app is for using the Pomodoro technique which is a time-management method developed by Francesco Cirillo in the late 1980s. 
+The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks, 
+however the app has the ability to increased the work interval up to 60 mins and breaks up tp 15 mins.
+Each interval is known as a _pomodoro_, from the Italian word for _tomato_, after the tomato-shaped kitchen timer that Cirillo used as a university student. 
